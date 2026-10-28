@@ -1,0 +1,43 @@
+Category,ID,Part Name,Specification,Qty,Source,Est Cost (EGP),Notes
+3D Printed,PT-01,Helical Blade,NACA 0018 / SLA ABS-Like / 0.05mm / 250mm tall,3,3D Print,50 ea,Printed vertically
+3D Printed,PT-02,Bottom Arm Disc,Ø150mm / FDM PLA+ White / 0.12mm / 4mm thick,1,3D Print,15,Connects blade bottoms
+3D Printed,PT-03,Top Arm Disc,Ø150mm / FDM PLA+ White / 0.12mm / 4mm thick,1,3D Print,15,Connects blade tops
+3D Printed,PT-04,Nose Cone,Hemisphere Ø30mm / SLA Standard / hollow,1,3D Print,10,Top cap
+3D Printed,PT-05,Base Shell,150x150x80mm / FDM PLA+ Black / 0.20mm,1,3D Print,40,Houses all electronics
+3D Printed,PT-06,Base Top Plate,150x150x4mm / FDM PLA+ Black / 0.20mm / 100%,1,3D Print,15,Structural top
+3D Printed,PT-07,Bearing Plate,Ø40/Ø22x4mm / FDM PETG Black / 0.12mm / 80%,2,3D Print,10 ea,For 608ZZ bearings
+3D Printed,PT-08,Generator Mount,Ø50/Ø41x10mm / FDM PETG Black / 0.16mm,1,3D Print,8,Holds PMSG
+3D Printed,PT-09,LED Accent Ring,Ø148/Ø142x6mm / FDM PLA+ Translucent / vase mode,1,3D Print,5,Light diffusion
+3D Printed,PT-10,Strut Connector,15x10x4mm bracket / SLA Tough 2000,6,3D Print,3 ea,Blade-to-arm
+Generator,PC-01,PMSG Generator,T-Motor GB4108 100KV or N20 coreless 300RPM,1,AliExpress,200-350,Direct-drive no gearbox
+Bearings,PC-02,608ZZ Bearing,8x22x7mm shielded deep groove,2,Local shop,15 ea,Main shaft support
+Shaft,PC-03,Main Shaft,SS304 Ø8mm x 380mm precision ground,1,AliExpress,60,Ø8 matches 608 bore
+Fasteners,PC-04,Locking Collar Ø8mm,With M3 set screw,2,AliExpress,15 ea,Generator + top shaft
+Fasteners,PC-05,M3x10 Socket Head Screws,Stainless steel,6,Hardware,2 ea,Blade attachment
+Fasteners,PC-06,M3 Nylock Nuts,Stainless steel,6,Hardware,2 ea,Lock blade bolts
+Fasteners,PC-07,M3 Brass Threaded Inserts,Ø4.2 x 5mm heat-set,6,Hardware,3 ea,For 3D printed parts
+Fasteners,PC-08,M5 Shaft Nut,For nose cone and generator,2,Hardware,3 ea,Shaft end retention
+Electronics,PC-09,Bridge Rectifier,4x 1N5819 Schottky diodes or KBPC2510,1,AliExpress,15,AC to DC
+Electronics,PC-10,CN3791 MPPT Board,Breakout board for wind/solar MPPT,1,AliExpress,35,Maximum power tracking
+Electronics,PC-11,MT3608 Boost Converter,DC-DC step-up module,1,AliExpress,20,Regulated 5V USB output
+Electronics,PC-12,18650 Battery + Holder,3.7V 1200mAh LiPo + holder,1 set,Local/AliExpress,65,Energy buffer
+Electronics,PC-13,OLED Display,0.96 inch I2C SSD1306 128x64,1,AliExpress,80,Live data readout
+Electronics,PC-14,Arduino Nano,ATmega328P clone,1,AliExpress,50,Microcontroller
+Electronics,PC-15,INA219 Current Sensor,I2C breakout 0-3.3A,1,AliExpress,25,Current measurement
+Electronics,PC-16,A3144 Hall Sensor,Digital hall effect switch,1,AliExpress,8,RPM measurement
+Electronics,PC-17,LEDs 3mm,Assorted colors (green blue red white),8,AliExpress,1 ea,Status indicators
+Electronics,PC-18,Resistors 220 ohm,1/4W for LED current limiting,8,Hardware,0.5 ea,LED protection
+Electronics,PC-19,USB Type-A Socket,Panel mount female,1,AliExpress,10,5V output
+Electronics,PC-20,Power Switch,SPDT slide panel mount,1,AliExpress,5,On/off
+Electronics,PC-21,N35 Magnet Ø5x2mm,For Hall sensor trigger on shaft,1,AliExpress,3,RPM sensing
+Wiring,PC-22,Silicone Wire 28AWG,Assorted colors 1m total,1 set,AliExpress,15,Internal wiring
+Wiring,PC-23,Perfboard 5x7cm,For soldering electronics,1,Hardware,10,Circuit prototyping
+Wiring,PC-24,Heat Shrink Tubing,Assorted sizes 30cm,1 set,Hardware,5,Wire insulation
+Consumables,CS-01,SLA Resin ABS-Like,~250mL for blades + cone + struts,1,Local shop,180,Blade printing
+Consumables,CS-02,PLA+ Filament,~200g total (white black translucent),1,Amazon.eg,120,Structural parts
+Consumables,CS-03,IPA 99%,200mL for SLA wash,1,Hardware,40,Resin cleaning
+Consumables,CS-04,Sandpaper Set,P400 P800 P1200 P2000 wet-dry,1 set,Hardware,30,Surface finishing
+Consumables,CS-05,Spray Paints,Primer + white + clear coat,3 cans,Paint shop,125,Visual finish
+Consumables,CS-06,CA Glue + Epoxy,Assembly adhesive,2 tubes,Hardware,35,Part bonding
+Consumables,CS-07,Rubber Feet,Self-adhesive silicone 10mm dia,4,Hardware,2 ea,Base anti-slip
+Consumables,CS-08,Sand Fill,~1.2kg fine sand for base weight,1,Hardware,5,Base stability
